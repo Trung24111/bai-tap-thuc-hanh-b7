@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.layout {
+    display: flex; /*Thiết lập hiển thị layout 1 chiều*/
+    gap: 10px; /*Mỗi items trong flexbox cách nhau 10px không tính khoảng đầu tiên từ rìa màn hình đến item thứ nhất và khoảng cuối từ item thứ n đến rìa màn hình */
+    justify-content: space-between; /*Điều chỉnh hiển thị cho mỗi item cách đều nhau trải từ phải qua trái*/
+    flex-wrap: wrap; /*Điều chỉnh hiển thị sao cho khi co màn hình lại các flex item tự động xuống hàng*/
+}
+.card {
+    background-color: aqua;
+    padding: 30px;
+}
